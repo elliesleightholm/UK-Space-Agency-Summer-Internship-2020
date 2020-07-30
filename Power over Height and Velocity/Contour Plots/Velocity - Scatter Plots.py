@@ -24,7 +24,7 @@ for i in range(1, 2049):
     col_names.append("Spectral Power " + str(i))
 
 # Creating the dataframe
-df = dd.read_csv('191109T000013.csv', sample=1000000000, names=col_names)
+df = dd.read_csv('input_csv_here', sample=1000000000, names=col_names)
 computed_df = df.compute()
 
 # Creating the date of the dataset:
