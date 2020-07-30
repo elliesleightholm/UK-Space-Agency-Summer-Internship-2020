@@ -8,7 +8,7 @@ for i in range(1, 2049):
     col_names.append("Spectral Power " + str(i))
 
 # Creating the dataframe
-df = dd.read_csv('191212T215726.csv', sample=1000000000, names=col_names)
+df = dd.read_csv('input_csv_here', sample=1000000000, names=col_names)
 
 # Computes our dask.dataframe into a pandas dataframe so we can analyse the data and start plotting graphs
 computed_df = df.compute()
