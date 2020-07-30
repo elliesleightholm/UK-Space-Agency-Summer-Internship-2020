@@ -6,19 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import log10
 
-# Datasets:
-# Half Day Datasets:
-    # 191212T215726
-    # 191215T214532
-# Full Day Datasets:
-    #191001T000014
-    #191002T000010 - lack of data
-    #191024T000013
-    #191025T000009
-    #191026T000005
-    #191108T000002 - lack of data
-    #191109T000013
-
 # Creating the names for the headers (2052 headers altogether)
 col_names = ['Date (YYMMDD)','Time of Day (Decimal Hours)','Frequency of First Spectral point','Frequency Step Between Data Bins']
 for i in range(1, 2049):
