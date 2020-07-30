@@ -6,18 +6,6 @@ col_names = ['Date (YYMMDD)','Time of Day (Decimal Hours)','Frequency of First S
 for i in range(1, 2049):
     col_names.append("Spectral Power " + str(i))
 
-# Datasets:
-# Half Day Datasets:
-    # 191212T215726
-    # 191215T214532
-# Full Day Datasets:
-    #191001T000014
-    #191002T000010 - lack of data
-    #191024T000013
-    #191025T000009
-    #191026T000005
-    #191108T000002 - lack of data
-    #191109T000013
 
 # Creating the dataframe
 df = dd.read_csv('input_csv_here', sample=1000000000, names=col_names)
