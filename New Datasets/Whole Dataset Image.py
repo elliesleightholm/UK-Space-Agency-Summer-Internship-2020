@@ -5,13 +5,6 @@ import matplotlib.pyplot as plt # allows us to plot
 from matplotlib import cm # allows us to plot the colour range
 from matplotlib.colors import ListedColormap # allows us to plot the colour range
 
-
-# New datasets this code plots for:
-    # 171127T000524 - has some but not massses of data  - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125 * 2
-    # 171128T000002 - has some but not masses of data   - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125 * 2
-    # 180129T000002 - has little data                   - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125 * 2
-    # 180227T000003                                     - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125
-
 # The other code plots for the other datasets.
 
 # Creating the names for the headers (2052 headers altogether)
