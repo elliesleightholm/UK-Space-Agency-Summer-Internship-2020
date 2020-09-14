@@ -7,15 +7,6 @@ import matplotlib.pyplot as plt # allows us to plot
 from matplotlib import cm # allows us to plot a colour range
 from matplotlib.colors import ListedColormap # allows us to plot a colour range
 
-# New datasets:
-    # 171103T000001                                     - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125
-    # 171110T000001                                     - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.109375
-    # 171127T000524 - has some but not massses of data  - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125 * 2
-    # 171128T000002 - has some but not masses of data   - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125 * 2
-    # 171206T001724                                     - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125 * 2
-    # 180129T000002 - has little data                   - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125 * 2
-    # 180227T000003                                     - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125
-
 # Sets the velocity for selected dataset (as defined above)
 velocity = 0.15625
 
