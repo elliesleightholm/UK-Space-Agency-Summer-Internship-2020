@@ -5,15 +5,6 @@ from math import log10 # import log10 so we can perform our calculations
 import numpy as np # allows us to plot the colour range
 import plotly.graph_objects as go # this allows us to plot the contour plots
 
-# New datasets:
-    # 171103T000001                                     - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125
-    # 171110T000001                                     - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.109375
-    # 171127T000524 - has some but not massses of data  - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125 * 2
-    # 171128T000002 - has some but not masses of data   - Range Resolution: 75m, Maximum Range: 1200m, velocity = 0.078125 * 2
-    # 171206T001724                                     - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125 * 2
-    # 180129T000002 - has little data                   - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125 * 2
-    # 180227T000003                                     - Range Resolution: 60m, Maximum Range: 960m, velocity = 0.078125
-
 # Creating the names for the headers (2052 headers altogether)
 col_names = ['Date (YYMMDD)','Time of Day (Decimal Hours)','Frequency of First Spectral point','Frequency Step Between Data Bins']
 for i in range(1, 2049):
